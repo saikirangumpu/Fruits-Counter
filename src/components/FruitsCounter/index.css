@@ -1,0 +1,76 @@
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 9px;
+}
+
+.top-section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.sentence {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mango-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.fruit-image {
+  height: 390px;
+  width: 340px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  width: 140px;
+  height: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
